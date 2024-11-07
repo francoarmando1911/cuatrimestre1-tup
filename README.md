@@ -1,7 +1,4 @@
 
-4- Escribir un pseudocódigo que permita el ingreso de dos numero enteros (el primero debe ser
-menor que el segundo) y que muestre la sumatoria de todos los números enteros entre los dos
-numero ingresado (inclusive).
 5- Escriba un programa que pida un número entero mayor que cero y calcule su factorial.
 6- Se está haciendo una encuesta de 5 personas en donde responden a una pregunta teniendo en
 cuenta 4 categorías: 1 muy malo, 2 malo, 3 bueno, 4 muy bueno. Se necesita hacer un
