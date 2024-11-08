@@ -12,6 +12,6 @@ function factorial(numero){
     return resultado
 }
 
-let numero = parseInt(prompt('Inghrese un numero entero mayor que 0: '))
+let numero = parseInt(prompt('Ingrese un numero entero mayor que 0: '))
 let resultado = factorial(numero)
 console.log(`El factorial de ${numero} es ${resultado}`)
