@@ -1,10 +1,8 @@
 #Guia 11:
 
-1- Crear un pseudocódigo que le permita ingresar todos los números que desee y calcular
-su sumatoria. Establezca una opción de salida.
 2- Codificar un algoritmo para calcular la suma (entera) de números comprendido entre
 dos números enteros ingresados por el usuario.
-3- Escribir un pseudocódigo que permita al usuario adivinar un número secreto entre 1 y
+3- Escribir un pseudocódigo que permita al usuario adivinar un número secreto entre 1 y 
 10. El programa sigue pidiendo intentos hasta que el número sea adivinado
 4- En una caja de supermercado se ingresa una serie de productos escriba un
 pseudocódigo que calcule cuanto es el total de la compra. Debido a que hay promociones
