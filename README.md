@@ -1,7 +1,4 @@
 #Guia 11:
-7- Escriba un pseudocódigo que permita el ingreso de una serie de números y que a su
-sumatoria le calcule cuantas cifras tiene y que muestre cada una de sus cifras por
-separado. Establezca una opción para la finalización del ingreso de la serie.
 8- Escriba un pseudocódigo que permita el ingreso de una frase y que cuente la cantidad
 de palabras que el usuario que ingreso. Establezca una opción para finalizar el ingreso de
 palabras.
