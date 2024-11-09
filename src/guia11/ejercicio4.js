@@ -7,24 +7,35 @@ productos se produce cuando se ingresa precio 0.
 */
 
 let productos = []
-let totalProductos = 0
-let descuento10 = 0
-let descuento5 = 0
+let totalCompra = 0
 
-productos = prompt('Ingrese precio de producto: ')
-let respuesta = prompt('Desea cargar otro producto (s/n): ')
+function calcularTotalConDescuentos(productos) {
+    let total = 0;
 
-while(respuesta === 's'){
-    productos = prompt('Ingrese precio de producto: ')
-    let respuesta = prompt('Desea cargar otro producto (s/n): ')
-} 
+    for (let producto of productos) {
+        let subtotal = producto.precio * producto.cantidad;
 
-function totalCompra(productos){
-    for(let i = 1; i <= productos; i++){
-        suma = 0
-        suma += i
+        if (producto.tipo === 'Lácteo') {
+            subtotal *= 0.90;
+        } else if (producto.tipo === 'Cárnico') {
+            subtotal *= 0.95; 
+        }
+
+        total += subtotal;
     }
-    return suma
+    return total;
 }
 
-console.log(`El total del precio a pagar por los productos es de: ${totalCompra} (sin los descuentos correspondientes)`)
+while (true) {
+    let precio = parseFloat(prompt('Ingrese el precio del producto (0 para terminar): '));
+    if (precio === 0) break; 
+
+    let cantidad = parseInt(prompt('Ingrese la cantidad de producto: '));
+    let tipo = prompt('Ingrese el tipo de producto (Lácteo, Cárnico, Otro): ');
+
+    productos.push({ precio, cantidad, tipo });
+}
+
+totalCompra = calcularTotalConDescuentos(productos);
+
+console.log(`El total del precio a pagar por los productos es de: ${totalCompra}`);
