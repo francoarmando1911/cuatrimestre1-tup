@@ -17,7 +17,7 @@ do{
 
     numero = parseInt(numero)
 
-    if(isNaN(numero)){
+    if(isNaN(numero)){ //la funcion NaN me sirve para verificar si el valor ingresado no es numero y que lo convierta, (not a number)
         console.log('Por favor, ingrese un numero que sea valido... ')
         continue;
     }
