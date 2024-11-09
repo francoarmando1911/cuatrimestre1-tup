@@ -1,14 +1,5 @@
 #Guia 11:
 
-4- En una caja de supermercado se ingresa una serie de productos escriba un
-pseudocódigo que calcule cuanto es el total de la compra. Debido a que hay promociones
-se hace un descuento de 10 % a los productos Lácteos y 5 % de descuento a los
-productos Cárnicos. Se debe ingresar cantidad, precio y tipo. La finalización del ingreso de
-productos se produce cuando se ingresa precio 0.
-5- Cree un pseudocódigo que permita el ingreso de números enteros y nos informe
-cuantos números pares e impares positivos y cuantos impares negativos ingresó.
-Establezca una opción para finalizar el ingreso de números. Intente validar que el numero
-ingresado sea un entero.
 6- Escriba un pseudocódigo que permita ingresar palabras y que nos informe cuantas
 palabras ingreso y muestre cual de todas fue la más larga y cuantas letras tenía esa
 palabra. Establezca una opción para finalizar el ingreso de palabras. No considere la
