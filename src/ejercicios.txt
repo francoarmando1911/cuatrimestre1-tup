@@ -1,12 +1,5 @@
 GUIA 13 SUBPROGRAMAS (funciones)
 
-1- Escriba un menú que contenga las siguientes opciones y programe el pseudocódigo que
-efectué la acción indicada. Utilice una función para cada ítem del menú.
-1-Multiplicacion de dos números
-2-Suma de dos números
-3-Resta de dos numero
-4-Salir
-
 2- Crear un pseudocódigo que permita que, ingresando el nombre y el sexo de una
 persona nos muestre un saludo de buenos días personalizado con ese nombre. Cree una
 función para que si es mujer agregue “Sra” y si es hombre “Sr.” delante del nombre
