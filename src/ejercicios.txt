@@ -1,10 +1,5 @@
 GUIA 13 SUBPROGRAMAS (funciones)
 
-2- Crear un pseudocódigo que permita que, ingresando el nombre y el sexo de una
-persona nos muestre un saludo de buenos días personalizado con ese nombre. Cree una
-función para que si es mujer agregue “Sra” y si es hombre “Sr.” delante del nombre
-ingresado.
-
 3- Escribir un algoritmo que nos informe si el año ingresado es un año bisiesto. Utilice una
 función para determinarlo.
 
